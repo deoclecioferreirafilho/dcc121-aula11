@@ -1,3 +1,22 @@
 h1{
     color:blue;
 }
+ul > li{
+        font-size:1.2em;
+}
+#i02{
+    color:rgb(117, 41, 117);
+}
+li.fruta{
+
+    color: gold;
+}
+li.legume{
+
+    color:rgb(67, 204, 67);
+    background-color: yellow;
+}
+
+.preparo li{
+    color: darkgrey;
+}
