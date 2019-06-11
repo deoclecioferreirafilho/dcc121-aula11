@@ -32,6 +32,25 @@
         <li>Corte os vegetais; e</li>
         <li>Misture tudo e coma a vontade.</li>
     </ol>
+
+    <script>
+        var liUva = document.querySelector("#i02");
+        console.log(liUva.style);
+        var tipo = document.createElement("span");
+        liUva.appendChild(tipo);
+
+        tipo.addEventListener('click', function(e)
+        {
+            if(e.target.parentElemente.style.color == "green"){
+                  e.target.textContent = "roxa";
+                  e.target.parentElemente.style.color = "darkmagenta";
+            } else{
+                e.target.textContent = "verde";
+                e.target.parentElemente.style.color = "green";
+            }
+          });
+    
+    </script>
     
 </body>
 </html>
